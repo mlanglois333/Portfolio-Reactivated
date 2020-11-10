@@ -10,11 +10,11 @@ function Project() {
                 <div>
             <p>{result.description}</p>
             <br></br>
-                <p>{result.github}</p>
+                <a href={result.github}>Repository</a>
                 <br></br>
-                <p>{result.deployed}</p>
+                <a href={result.deployed}>Deployed</a>
                 <br></br>
-                <img src={result.imgSrc} alt="screenshot of ap"></img>
+                <img src={result.imgUrl} alt="screenshot of ap"></img>
                 </div>
             }>
                 </Card>

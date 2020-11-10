@@ -16,8 +16,8 @@ function About() {
         </ul>
         <p>Please see my <a href='https://docs.google.com/document/d/1Ysg97sg2KhNGJ9d0rwVgdR9BviSeHpazEl2W0yVpQbo/edit?usp=sharing'>resume</a> for a more detailed history.</p>
         <br />
-        <a href="https://www.linkedin.com/in/marc-langlois-2b40b61b0/"><img src="../img/liImg.png" alt="linkedIn"></img></a>
-        <a href='https://github.com/mlanglois333'><img src="../img/github.png" alt="gitHub"></img></a>
+        <a href="https://www.linkedin.com/in/marc-langlois-2b40b61b0/"><img src="/img/liImg.png" alt="linkedIn"></img></a>
+        <a href='https://github.com/mlanglois333'><img src= "/img/github.png" alt="gitHub" /></a>
     </div>)
 }
 
