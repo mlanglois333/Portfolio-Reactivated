@@ -99,13 +99,13 @@ class View extends Component {
                 <div className="buffer"></div>
                 <Container>
                     <Row>
-                        <Col size="md-2">
+                        <Col size="sm-2">
                             <Button fcn={this.left} img="/img/left.png" />
                         </Col>
-                        <Col size="md-8">
+                        <Col size="sm-8">
                             <Project index={this.state.index} />
                         </Col>
-                        <Col size="md-2">
+                        <Col size="sm-2">
                             <Button fcn={this.right} img="/img/right.png" />
                         </Col>
                     </Row>
