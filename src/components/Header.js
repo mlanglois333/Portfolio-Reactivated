@@ -5,7 +5,7 @@ function Header(props){
     return (<div>
         
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">Marc Langlois</a>
+        <a className="navbar-brand" href="#about">Marc Langlois</a>
         <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
