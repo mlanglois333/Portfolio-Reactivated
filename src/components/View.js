@@ -17,17 +17,26 @@ class View extends Component {
 
     componentDidMount() { this.setState({ isLoading: false }) };
 
-    projects = ()=>{
+    projects = event=>{
+
+        event.preventDefault();
+
         this.setState({display: "portfolio"})
     }
 
-    about = ()=>{
+    about = event =>{
+        event.preventDefault();
+
         this.setState({display: "about"})
     }
 
-    home = ()=>{
+    home = event =>{
+        event.preventDefault();
+
         this.setState({display: "home"})
     }
+
+    
 
     
 
@@ -42,21 +51,26 @@ class View extends Component {
             </div>
         }
 
-        else {
+        else if (this.state.display === "portfolio" && this.state.isLoading===false) {
             return <div>
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <Container>
-                    <Row>
-                        <Col size="md-12">
-                            <About />
-                        </Col>
-                    </Row>
                     <Row>
                         <Col size="md-12">
                             <Project />
                         </Col>
                     </Row>
                 </Container>
+                <Footer />
+            </div>
+        }
+
+        else if (this.state.display === "about" && this.state.isLoading === false) {
+
+
+            return <div>
+                <Header home={this.home} portfolio={this.projects} about={this.about} />
+                <About />
                 <Footer />
             </div>
         }
