@@ -45,7 +45,7 @@ class View extends Component {
         event.preventDefault();
 
         if (tempIndex === 0) {
-            tempIndex = 6;
+            tempIndex = 5;
             this.setState({ index: tempIndex });
 
         }
@@ -64,13 +64,14 @@ class View extends Component {
 
         event.preventDefault();
 
-        if (tempIndex === 6) {
+        if (tempIndex === 5) {
             tempIndex = 0;
             this.setState({ index: tempIndex });
         }
         else {
             tempIndex++;
             this.setState({ index: tempIndex });
+            console.log(this.state.index);
         }
 
 
@@ -99,13 +100,13 @@ class View extends Component {
                 <Container>
                     <Row>
                         <Col size="md-2">
-                            <Button fct={this.left} img="/img/left.png" />
+                            <Button fcn={this.left} img="/img/left.png" />
                         </Col>
                         <Col size="md-8">
                             <Project index={this.state.index} />
                         </Col>
                         <Col size="md-2">
-                            <Button fct={this.right} img="/img/right.png" />
+                            <Button fcn={this.right} img="/img/right.png" />
                         </Col>
                     </Row>
                 </Container>
