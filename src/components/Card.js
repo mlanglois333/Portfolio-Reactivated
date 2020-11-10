@@ -18,10 +18,10 @@ function Card(props) {
         </div>
       </div>
       
-      <div class="card-footer w-100 text-muted">
-        <p>{props.li} || {props.gh}</p>
+      <div className="card-footer w-100 text-muted">
+        <p><img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" /> || {props.li} || {props.gh} || <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" /></p>
       </div>
-      </div>
+    </div>
     </div>
   );
 }

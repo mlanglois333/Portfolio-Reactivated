@@ -12,6 +12,10 @@ function Project(props) {
             detail={<p>{projects.projects[i].description}</p>}
             gh={<a href={projects.projects[i].github}>Repository</a>}
             li={<a href={projects.projects[i].deployed}>Deployed</a>}
+            left="/img/left.png"
+            right="/img/right.png"
+            leftClick={props.leftClick}
+            rightClick={props.rightClick}
              />
                 
     );

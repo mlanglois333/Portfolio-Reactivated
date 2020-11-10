@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import About from "./About";
 import Project from "./Project";
 import Home from "./Home";
-import Button from "./Button";
+//import Button from "./Button";
 
 
 class View extends Component {
@@ -99,18 +99,17 @@ class View extends Component {
                 <div className="buffer"></div>
                 <Container>
                     <Row>
-                        <Col size="sm-2">
-                            <Button fcn={this.left} img="/img/left.png" />
+                        <Col size="sm-12">
+                            <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
                         </Col>
-                        <Col size="sm-8">
-                            <Project index={this.state.index} />
-                        </Col>
-                        <Col size="sm-2">
-                            <Button fcn={this.right} img="/img/right.png" />
+                    </Row>
+                    <Row>
+                        <Col size="sm-12">
+                            <Footer />
                         </Col>
                     </Row>
                 </Container>
-                <Footer />
+                
             </div>
         }
 
