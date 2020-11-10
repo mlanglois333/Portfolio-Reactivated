@@ -1,5 +1,4 @@
 * {
- 
   color: white;
 }
 
@@ -12,26 +11,38 @@ body {
   background-size: auto;
 }
 
-nav {
-  padding-bottom:20px;
-}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-
 .screenshot {
-  max-width: 30%;
-  height: auto;
+  width: auto;
+  max-height: 80%;
+  border: black;
+  border-width: 3pt;
+  border-style: solid;
 }
 
 .linkImg {
   max-width: 10%;
   height: auto;
+  padding: 5px;
 }
 
 .homeText {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: larger;
+  font-size: 72pt;
   font-weight: bolder;
+}
+
+.buffer {
+  padding: 10px;
+}
+
+h2 {
+  color: black
+}
+
+p {
+  color: black
 }

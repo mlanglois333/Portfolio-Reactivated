@@ -9,9 +9,9 @@ function Home() {
         <Container>
             <Row>
                 <Col size="md-7">
-                    <h2 className="homeText">
+                    <h1 className="homeText">
                         Full-Stack Developer With An Eye For Detail And Drive For Knowledge. 
-                    </h2>
+                    </h1>
                 </Col>
                 <Col size="md-5">
                     <img src="/img/profilepic.jpg" alt="profilePicture" />

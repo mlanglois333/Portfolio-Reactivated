@@ -9,7 +9,7 @@ function Card(props) {
       </div>
       <div className="card-body">
       <div className="row no-gutters">
-        <div className="col-auto">
+        <div className="col">
         <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
         </div>
         <div className="col">
@@ -17,11 +17,11 @@ function Card(props) {
 
         </div>
       </div>
-      </div>
+      
       <div class="card-footer w-100 text-muted">
         <p>{props.li} || {props.gh}</p>
       </div>
-      
+      </div>
     </div>
   );
 }
