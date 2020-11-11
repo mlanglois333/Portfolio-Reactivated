@@ -14,7 +14,7 @@ function Home() {
                     </h1>
                 </Col>
                 <Col size="md-5">
-                    <img src="/img/profilepic.jpg" alt="profilePicture" />
+                    <img src="./img/profilepic.JPG" alt="profilePicture" />
                 </Col>
             </Row>
         </Container>
