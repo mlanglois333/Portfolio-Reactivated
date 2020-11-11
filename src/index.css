@@ -30,8 +30,8 @@ code {
 }
 
 .homeText {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 72pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50pt;
   font-weight: bolder;
 }
 
@@ -44,7 +44,7 @@ h2 {
 }
 
 p {
-  color: black
+  color: black;
 }
 
 .buttonImg {
@@ -58,4 +58,12 @@ p {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.aboutText{
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
 }
