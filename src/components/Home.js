@@ -6,26 +6,33 @@ import Row from "./Row";
 function Home() {
 
     return (<div>
-   
-        <Container>
+        <div className="hero-image">
+        <div className="hero-text">
+            <h1 className="homeText">
+                Marc Langlois
+            </h1>
 
-            <Row className="homeContent">
-                <Col size="md-12">
-                    <h1 className="homeText">
-                        Creative Problem-Solver
-                        <br />
-                        Detail Oriented
-                        <br />
-                        Motivated
-                    </h1>
-                </Col>
-            </Row>
-        </Container>
-        <div className="bg">
-            <img src="./img/newbg.jpg" alt="computer"></img>
+            <p className="homeText">
+                Junior Engineer and Creative Problem-Solver
+            </p>
         </div>
+   </div>
 
-    </div>)
+   <Container>
+       <Row>
+           <Col size="md-6">
+               <img src="./img/profilepic.jpg" alt="Self"></img>
+           </Col>
+           <Col size="md-6">
+               <p className="homeText">
+                   Thank you for visiting !
+               </p>
+           </Col>
+       </Row>
+       
+   </Container>
+   
+   </div>)
 }
 
 export default Home;
