@@ -5,14 +5,14 @@ function Card(props) {
     <div className="card text-center bg-dark text-light">
         
       <div className="card-header">
-        <h2>{props.header}</h2>
+        <h2 className="text-light">{props.header}</h2>
       </div>
       <div className="card-body">
       <div className="row no-gutters">
         <div className="col">
         <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
         </div>
-        <div className="col">
+        <div className="col text-light">
           {props.detail}
 
         </div>

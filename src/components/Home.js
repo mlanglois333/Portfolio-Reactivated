@@ -21,7 +21,9 @@ function Home() {
                 </Col>
             </Row>
         </Container>
-        <div className="bg"></div>
+        <div className="bg">
+            <img src="./img/newbg.jpg" alt="computer"></img>
+        </div>
 
     </div>)
 }
