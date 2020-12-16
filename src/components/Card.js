@@ -15,9 +15,9 @@ function Card(props) {
       </Row>
       <Row>
         <Col size="md-6">
-          <Fade clear>
+          
             <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
-          </Fade>
+         
         </Col>
       </Row>
       <Row>
@@ -27,7 +27,7 @@ function Card(props) {
           <Fade cascade>
 
             <h2>{props.header}</h2>
-            <br />
+            
 
             <p>
               {props.detail}

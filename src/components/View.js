@@ -120,7 +120,7 @@ class View extends Component {
                 <div className="buffer"></div>
                 <About />
                 
-                <Footer />
+                
             </div>
         }
     }
