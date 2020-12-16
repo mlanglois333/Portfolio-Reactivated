@@ -103,14 +103,9 @@ class View extends Component {
         
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
-                <Container>
-                    <Row>
-                        <Col size="sm-12">
+            
                             <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
-                        </Col>
-                    </Row>
-                </Container>
-             
+                    
                 <Footer />
             </div>
         }

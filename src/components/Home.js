@@ -5,13 +5,16 @@ function Home() {
     return (<div>
         <div>
         <div className="hero-text">
-            <Fade clear><h1 className="homeText">
+            <Fade cascade>
+                <h1 className="homeText">
                 Marc Langlois
             </h1>
-
-            <p>
-                Junior Engineer and Creative Problem-Solver
-            </p>
+            <h3>
+                Junior Engineer
+            </h3>
+            <h3>
+                Creative Problem Solver
+                </h3>
             </Fade>
         </div>
    </div>

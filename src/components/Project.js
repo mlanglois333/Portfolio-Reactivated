@@ -7,6 +7,9 @@ function Project(props) {
     let i = props.index;
     
     return (
+        <div className="hero-text">
+
+
             <Card header={projects.projects[i].title} 
             image={projects.projects[i].imgUrl} 
             detail={<p>{projects.projects[i].description}</p>}
@@ -16,8 +19,8 @@ function Project(props) {
             right="./img/right.png"
             leftClick={props.leftClick}
             rightClick={props.rightClick}
-             />
-                
+             /> 
+                </div>
     );
 }
 
