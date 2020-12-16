@@ -116,10 +116,12 @@ class View extends Component {
         else if (this.state.display === "about" && this.state.isLoading === false) {
 
 
-            return <div id="page-content">
+            return <div>
+            <div id="page-content">
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
                 <About />
+                </div>
                 <Footer />
             </div>
         }
