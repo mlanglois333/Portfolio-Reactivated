@@ -8,6 +8,13 @@ const projects = [
         imgUrl: "./img/ascent.png",
     },
     {
+        title: "Vedge-In",
+        description: "This is a tool that guides users towards a more healthy eating decisions through tracking and gamification. Users log the amount of fruits and veggies they consume in a day to gain points. Users can challenge eachother to see who can gain the most points in the course of a week and end up on the leaderboard! This application uses TypeScript, NestJs, and TypeORM. ",
+        github: "https://github.com/tiffany-brand/veg-out",
+        deployed: "https://vedge-in.herokuapp.com/",
+        imgUrl: "./img/vedgeIn.jpg",
+    },
+    {
         title: "Quar 'N Titles",
         description: "What was that movie called again? This application allows users to search multiple APIs for movies, TV shows, and books that they enjoyed and would like to reccomend. Upon searching for titles, the user is presented with a cover image and information about the release and are able to save it to their collection.",
         github: "https://github.com/mlanglois333/Quarantine-Accomplishments",
@@ -27,21 +34,14 @@ const projects = [
         github: "https://github.com/mlanglois333/Offline-Banking",
         deployed: "https://shrouded-bastion-57978.herokuapp.com/",
         imgUrl: "./img/budget.png",
-    }, {
+    }, 
+    {
         title: "NodeJS Staff Database",
         description: "This is an ap using NodeJs and Mysql that allows users to create, review, update, and delete employee data held in a database. It works by establishing a connection to the database then using input from inquirer prompts to manipulate data within the tables.",
         github: "https://github.com/mlanglois333/mysql-staff-generator",
         deployed: "https://drive.google.com/file/d/1aML90GX1Kmi0IcVd3heisLn4VwZrSXVf/view",
         imgUrl: "./img/staff.png",
-    }, 
-    {
-        title: "Burger Time!",
-        description: "This is a NodeJs/mysql application that allows users to log, eat, and delete burgers based on input. This ap was developed with separation of concerns as the fundamental. It functions through interactions between ajax calls and database querying.",
-        github: "https://github.com/mlanglois333/BurgerTime",
-        deployed: "https://burgertimeml.herokuapp.com/",
-        imgUrl: "./img/burgertime.jpg",
     }
-
 
 ];
 
