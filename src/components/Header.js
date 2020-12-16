@@ -17,6 +17,10 @@ function Header(props) {
                     </li>
                 </ul>
             </div>
+            <div className="float-right">
+            <a href="https://www.linkedin.com/in/marc-langlois-2b40b61b0/"><img src="./img/liImg.png" alt="linkedIn" className="linkImg" /></a>
+        <a href='https://github.com/mlanglois333'><img src= "./img/github.png" alt="gitHub" className="linkImg" /></a>
+            </div>
         </nav>
 
     </div>)
