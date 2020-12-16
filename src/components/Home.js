@@ -2,21 +2,22 @@ import React from "react";
 import Fade from 'react-reveal/Fade';
 function Home() {
 
-    return (<Fade clear><div>
+    return (<div>
         <div>
         <div className="hero-text">
-            <h1 className="homeText">
+            <Fade clear><h1 className="homeText">
                 Marc Langlois
             </h1>
 
             <p>
                 Junior Engineer and Creative Problem-Solver
             </p>
+            </Fade>
         </div>
    </div>
 
    
-   </div></Fade>)
+   </div>)
 }
 
 export default Home;
