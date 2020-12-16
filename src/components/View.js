@@ -86,19 +86,18 @@ class View extends Component {
 
         else if (this.state.isLoading === false && this.state.display === "home") {
             return <div>
-                <div className="wrapper">
+                
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
                 <Home />
-                <div className="push"></div>
-                </div>
+                
                 <Footer />
             </div>
         }
 
         else if (this.state.display === "portfolio" && this.state.isLoading === false) {
             return <div>
-                <div className="wrapper">
+        
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
                 <Container>
@@ -108,8 +107,7 @@ class View extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <div className="push"></div>
-                </div>
+             
                 <Footer />
             </div>
         }
@@ -118,13 +116,12 @@ class View extends Component {
 
 
             return <div>
-                <div className="wrapper">
+                
             
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
                 <About />
-                <div className="push"></div>
-                </div>
+                
                 <Footer />
             </div>
         }

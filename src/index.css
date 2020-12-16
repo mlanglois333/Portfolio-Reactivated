@@ -45,13 +45,9 @@ code {
   padding: 10px;
 }
 
-h2 {
-  color: black
-}
 
-p {
-  color: black;
-}
+
+
 
 .buttonImg {
   width: 5%;
@@ -80,9 +76,6 @@ p {
 
 }
 
-.navbar-right{
-  align-self: right;
-}
 
 .nav-link {
   color:white;
@@ -92,21 +85,7 @@ p {
   color:white;
 }
 
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -50px;
-}
 
-.footer,
-.push {
-  height: 50px;
-}
-
-.homeBuffer{
-  height:50%;
-
-
-}
 
 /* The hero image */
 .hero-image {
