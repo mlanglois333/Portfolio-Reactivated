@@ -23,14 +23,9 @@ function About() {
             <li>React</li>
             <li>Socket</li>
             <li>Phaser</li>
+            </ul>
             
-            
-
-        </ul>
-        <p className="aboutText">Please see my <a href='https://docs.google.com/document/d/1Ysg97sg2KhNGJ9d0rwVgdR9BviSeHpazEl2W0yVpQbo/edit?usp=sharing'>resume</a> for a more detailed history.</p>
-        <br />
-        <a href="https://www.linkedin.com/in/marc-langlois-2b40b61b0/"><img src="./img/liImg.png" alt="linkedIn" className="linkImg" /></a>
-        <a href='https://github.com/mlanglois333'><img src= "./img/github.png" alt="gitHub" className="linkImg" /></a>
+            <iframe title="resume" src="https://docs.google.com/document/d/e/2PACX-1vQ0pnRqBQaCZtFW_bBqRDTAB1aQ8BYDMQfP5pxS-UiRX2q036Yspefq547XYa6gbzPur8Y9B4B-LxGM/pub?embedded=true"></iframe>
     </div>)
 }
 
