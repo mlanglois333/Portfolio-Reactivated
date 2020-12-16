@@ -20,16 +20,8 @@ function Home() {
                     </h1>
                 </Col>
             </Row>
-            <Row>
-                <Col size="md-12">
-                    <div className="bg">
-                        <img src="/src/assets/newbg.jpg" alt="computer"></img>
-                    </div>
-                </Col>
-            </Row>
-
-
         </Container>
+        <div className="bg"></div>
 
     </div>)
 }
