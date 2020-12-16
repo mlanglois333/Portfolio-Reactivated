@@ -6,22 +6,11 @@ import Row from "./Row";
 function Home() {
 
     return (<div>
+        <div className="homeBuffer"></div>
         <Container>
 
-            <Row>
-                <Col size="md-12">
-                    <h1 className="homeText">
-                        Marc Langlois
-                    </h1>
-                    <br />
-                    <h3 className="homeText">
-                        Junior Engineer
-                    </h3>
-                </Col>
-
-            </Row>
             <Row className="homeContent">
-                <Col size="md-7">
+                <Col size="md-12">
                     <h1 className="homeText">
                         Creative Problem-Solver
                         <br />

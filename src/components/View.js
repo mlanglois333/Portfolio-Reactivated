@@ -108,8 +108,7 @@ class View extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <div className="push">
-                </div>
+                <div className="push"></div>
                 </div>
                 <Footer />
             </div>
