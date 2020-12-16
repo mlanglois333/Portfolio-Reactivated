@@ -8,7 +8,7 @@ import About from "./About";
 import Project from "./Project";
 import Home from "./Home";
 //import Button from "./Button";
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
 
 
 class View extends Component {
@@ -90,9 +90,9 @@ class View extends Component {
                 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
-                <Fade left>
+                
                 <Home />
-                </Fade>
+              
              
                 
             </div>

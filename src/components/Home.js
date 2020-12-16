@@ -1,11 +1,8 @@
 import React from "react";
-//import Container from "./Container";
-//import Col from "./Col";
-//import Row from "./Row";
-
+import Fade from 'react-reveal/Fade';
 function Home() {
 
-    return (<div>
+    return (<Fade clear><div>
         <div>
         <div className="hero-text">
             <h1 className="homeText">
@@ -19,7 +16,7 @@ function Home() {
    </div>
 
    
-   </div>)
+   </div></Fade>)
 }
 
 export default Home;
