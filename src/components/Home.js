@@ -12,7 +12,7 @@ function Home() {
                 Marc Langlois
             </h1>
 
-            <p className="homeText">
+            <p>
                 Junior Engineer and Creative Problem-Solver
             </p>
         </div>
