@@ -1,7 +1,5 @@
 # Portfolio Reactivated
 
-This is an updated portfolio page powered by React!
+You can visit my deployed portfolio <a href="https://mlanglois333.github.io/Portfolio-Reactivated/"> here </a>
 
-Please feel free to contact me any time.
-
-Thank you
+Powered by React!
