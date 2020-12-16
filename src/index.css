@@ -78,3 +78,7 @@ p {
   height: 100%;
 
 }
+
+.navbar-right{
+  float:right;
+}

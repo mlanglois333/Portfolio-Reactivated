@@ -8,14 +8,30 @@ function Home() {
     return (<div>
         <Container>
             <Row>
+            <Col size="md-5" />
                 <Col size="md-7">
                     <h1 className="homeText">
-                        Full-Stack Developer With An Eye For Detail And Drive For Knowledge. 
+                        Creative Problem-Solver
                     </h1>
                 </Col>
-                <Col size="md-5">
-                    <img src="./img/profilepic.JPG" alt="profilePicture" />
+                </Row>
+                <Row>
+                <Col size="md-6" />
+                <Col size="md-6">
+                    <h1>
+                        Detail Oriented
+                    </h1>
                 </Col>
+
+            </Row>
+            <Row>
+            <Col size="md-7" />
+            <Col size="md-5">
+                <h1>
+                    Love For Learning
+                </h1>
+                </Col>
+                
             </Row>
         </Container>
 
