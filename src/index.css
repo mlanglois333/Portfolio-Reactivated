@@ -91,5 +91,9 @@ p {
 }
 
 .navbar-right{
-  float:right;
+  align-self: right;
+}
+
+.nav-link {
+  color:white;
 }
