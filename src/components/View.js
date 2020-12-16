@@ -106,7 +106,7 @@ class View extends Component {
             
                             <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
                     
-                <Footer />
+                
             </div>
         }
 

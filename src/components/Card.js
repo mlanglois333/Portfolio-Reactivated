@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
 import Container from './Container';
 import Row from './Row';
 import Col from './Col';
@@ -21,10 +20,10 @@ function Card(props) {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col size="md-6">
 
 
-          <Fade cascade>
+         
 
             <h2>{props.header}</h2>
             
@@ -32,7 +31,7 @@ function Card(props) {
             <p>
               {props.detail}
             </p>
-          </Fade>
+          
         </Col>
       </Row>
 
