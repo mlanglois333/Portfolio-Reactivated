@@ -8,7 +8,7 @@ import About from "./About";
 import Project from "./Project";
 import Home from "./Home";
 //import Button from "./Button";
-import {CSSTransitionGroup} from 'react-transition-group';
+import CSSTransitionGroup from 'react-transition-group';
 
 
 class View extends Component {
