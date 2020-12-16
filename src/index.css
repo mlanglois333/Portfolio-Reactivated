@@ -30,7 +30,7 @@ code {
 }
 
 .homeText {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 50pt;
   font-weight: bolder;
 }
@@ -64,6 +64,6 @@ p {
   color:white;
   text-align: center;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   list-style-type: none;
 }
