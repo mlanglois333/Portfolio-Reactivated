@@ -18,8 +18,6 @@ function Card(props) {
             <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
          
         </Col>
-      </Row>
-      <Row>
         <Col size="md-6">
 
 

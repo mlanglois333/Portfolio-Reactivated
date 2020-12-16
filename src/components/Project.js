@@ -7,7 +7,7 @@ function Project(props) {
     let i = props.index;
     
     return (
-        <div>
+        <div className="hero-text">
 
 
             <Card header={projects.projects[i].title} 
