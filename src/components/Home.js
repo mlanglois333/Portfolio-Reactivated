@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "./Container";
-import Col from "./Col";
-import Row from "./Row";
+//import Container from "./Container";
+//import Col from "./Col";
+//import Row from "./Row";
 
 function Home() {
 
     return (<div>
-        <div className="hero-image">
+        <div>
         <div className="hero-text">
             <h1 className="homeText">
                 Marc Langlois
