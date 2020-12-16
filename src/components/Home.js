@@ -7,32 +7,32 @@ function Home() {
 
     return (<div>
         <Container>
+
             <Row>
-            <Col size="md-5" />
-                <Col size="md-7">
+                <Col size="md-12">
                     <h1 className="homeText">
-                        Creative Problem-Solver
+                        Marc Langlois
                     </h1>
-                </Col>
-                </Row>
-                <Row>
-                <Col size="md-6" />
-                <Col size="md-6">
-                    <h1>
-                        Detail Oriented
-                    </h1>
+                    <br />
+                    <h3 className="homeText">
+                        Junior Engineer
+                    </h3>
                 </Col>
 
             </Row>
             <Row>
-            <Col size="md-7" />
-            <Col size="md-5">
-                <h1>
-                    Love For Learning
-                </h1>
+                <Col size="md-7" className="homeContent">
+                    <h1 className="homeText">
+                        Creative Problem-Solver
+                        <br />
+                        Detail Oriented
+                        <br />
+                        Motivated
+                    </h1>
                 </Col>
-                
             </Row>
+
+
         </Container>
 
     </div>)
