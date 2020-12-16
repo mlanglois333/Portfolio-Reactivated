@@ -21,7 +21,7 @@ function Home() {
    <Container>
        <Row>
            <Col size="md-6">
-               <img src="./img/profilepic.jpg" alt="Self"></img>
+               <img src="./img/profilepic.JPG" alt="Self"></img>
            </Col>
            <Col size="md-6">
                <p className="homeText">
