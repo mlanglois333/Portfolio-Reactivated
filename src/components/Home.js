@@ -18,19 +18,6 @@ function Home() {
         </div>
    </div>
 
-   <Container>
-       <Row>
-           <Col size="md-6">
-               <img src="./img/profilepic.JPG" alt="Self"></img>
-           </Col>
-           <Col size="md-6">
-               <p className="homeText">
-                   Thank you for visiting !
-               </p>
-           </Col>
-       </Row>
-       
-   </Container>
    
    </div>)
 }
