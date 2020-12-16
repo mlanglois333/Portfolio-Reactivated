@@ -8,7 +8,7 @@ import About from "./About";
 import Project from "./Project";
 import Home from "./Home";
 //import Button from "./Button";
-import ReactCSSTransitionGroup from 'react-transition-group';
+import {CSSTransitionGroup} from 'react-transition-group';
 
 
 class View extends Component {
@@ -90,14 +90,14 @@ class View extends Component {
                 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
-                <ReactCSSTransitionGroup 
+                <CSSTransitionGroup 
                 transitionName="example"
           transitionAppear={true}
           transitionAppearTimeout={500}
           transitionEnter={false}
           transitionLeave={false}>
        { <Home />}
-        </ReactCSSTransitionGroup>
+        </CSSTransitionGroup>
              
                 
             </div>
