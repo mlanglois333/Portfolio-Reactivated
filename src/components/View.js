@@ -107,13 +107,9 @@ class View extends Component {
                             <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
                         </Col>
                     </Row>
-                    <Row>
-                        <Col size="sm-12">
-                            <Footer />
-                        </Col>
-                    </Row>
                 </Container>
-                <div className="push"></div>
+                <div className="push">
+                </div>
                 </div>
                 <Footer />
             </div>

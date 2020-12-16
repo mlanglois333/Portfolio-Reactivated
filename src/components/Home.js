@@ -20,8 +20,8 @@ function Home() {
                 </Col>
 
             </Row>
-            <Row>
-                <Col size="md-7" className="homeContent">
+            <Row className="homeContent">
+                <Col size="md-7">
                     <h1 className="homeText">
                         Creative Problem-Solver
                         <br />
