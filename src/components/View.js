@@ -90,13 +90,13 @@ class View extends Component {
                 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
-                <ReactCSSTransitionGroup
-          transitionName="example"
+                <ReactCSSTransitionGroup 
+                transitionName="example"
           transitionAppear={true}
           transitionAppearTimeout={500}
           transitionEnter={false}
           transitionLeave={false}>
-        <Home />
+       { <Home />}
         </ReactCSSTransitionGroup>
              
                 
