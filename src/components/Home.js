@@ -6,7 +6,7 @@ import Row from "./Row";
 function Home() {
 
     return (<div>
-        <div className="homeBuffer"></div>
+   
         <Container>
 
             <Row className="homeContent">
@@ -18,6 +18,11 @@ function Home() {
                         <br />
                         Motivated
                     </h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-12">
+                    <div className="bg"></div>
                 </Col>
             </Row>
 

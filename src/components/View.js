@@ -85,7 +85,7 @@ class View extends Component {
         if (this.state.isLoading === true) { return <div><h3>Loading...</h3></div> }
 
         else if (this.state.isLoading === false && this.state.display === "home") {
-            return <div className="bg">
+            return <div>
                 <div className="wrapper">
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
@@ -97,7 +97,7 @@ class View extends Component {
         }
 
         else if (this.state.display === "portfolio" && this.state.isLoading === false) {
-            return <div className="bg">
+            return <div>
                 <div className="wrapper">
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
@@ -117,7 +117,7 @@ class View extends Component {
         else if (this.state.display === "about" && this.state.isLoading === false) {
 
 
-            return <div className="bg">
+            return <div>
                 <div className="wrapper">
             
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
