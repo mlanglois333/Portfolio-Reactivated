@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(props) {
 
-    return (<div>
+    return (<div className="header">
 
         <nav className="navbar navbar-expand-lg navbar-inverse">
             <a className="navbar-brand" href="/" onClick={props.home}>Marc Langlois</a>
@@ -20,7 +20,7 @@ function Header(props) {
                     </li>
                 </ul>
             </div>
-            <div className="navbar-right">
+            <div className="linkPosition">
             <a href="https://www.linkedin.com/in/marc-langlois-2b40b61b0/"><img src="./img/liImg.png" alt="linkedIn" className="linkImg" /></a>
         <a href='https://github.com/mlanglois333'><img src= "./img/github.png" alt="gitHub" className="linkImg" /></a>
             </div>

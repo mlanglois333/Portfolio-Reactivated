@@ -24,11 +24,16 @@ function Card(props) {
           
         </Col>
       </Row>
-      </Container>
-        
-          <p className="sticky"><img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" /> || {props.li} || {props.gh} || <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" /></p>
+      <Row>
+        <Col size="md-12">
+          <p><img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" /> || {props.li} || {props.gh} || <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" /></p>
 
-        </div>
+        </Col>
+      </Row>
+
+
+
+    </Container></div>
   );
 }
 
