@@ -4,16 +4,16 @@ import Row from './Row';
 import Col from './Col';
 
 function Card(props) {
-  return (<div>
+  return (<Container>
     
       
       <Row>
-        <Col size="sm-6">
+        <Col size="xs-6">
           
             <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
          
         </Col>
-        <Col size="sm-6">   
+        <Col size="xs-6">   
 
             <h2>{props.header}</h2>
             
@@ -25,15 +25,15 @@ function Card(props) {
         </Col>
       </Row>
       <Row>
-        <Col size="sm-12">
+        <Col size="xs-12">
           <p><img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" /> || {props.li} || {props.gh} || <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" /></p>
 
         </Col>
       </Row>
 
 
-
-    </div>
+</Container>
+    
   );
 }
 

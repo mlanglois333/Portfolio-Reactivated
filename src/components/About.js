@@ -6,7 +6,7 @@ import Col from "./Col";
 
 function About() {
     return (
-        <div>
+        <Container>
 
             
                 <Row>
@@ -43,7 +43,8 @@ function About() {
                 } />
 
                 </ Row>
-                </div>)
+                </Container>
+                )
 }
 
 export default About;

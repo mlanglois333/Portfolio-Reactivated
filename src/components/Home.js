@@ -2,8 +2,8 @@ import React from "react";
 import Fade from 'react-reveal/Fade';
 function Home() {
 
-    return (<div>
-        <div>
+    return (
+        
         <div className="hero-text">
             <Fade cascade>
                 <h1 className="homeText">
@@ -17,10 +17,10 @@ function Home() {
                 </h3>
             </Fade>
         </div>
-   </div>
+   
 
    
-   </div>)
+   
 }
 
 export default Home;

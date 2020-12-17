@@ -102,7 +102,7 @@ class View extends Component {
 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
-                <Container children={<Project index={this.state.index} leftClick={this.left} rightClick={this.right} />} />
+                <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
 
 
             </div>
@@ -114,7 +114,7 @@ class View extends Component {
             return <div>
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
                 <div className="buffer"></div>
-                <Container children={<About />} />
+                <About />
 
 
 
