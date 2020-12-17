@@ -61,7 +61,7 @@ code {
 }
 
 .buffer {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .profilePic{
@@ -92,9 +92,9 @@ code {
   list-style-type: none;
 }
 
-#resume{
-  max-height: 80%;
-  max-width: auto;
+#contentAlign{
+ position:absolute;
+ top:15%;
 
 }
 

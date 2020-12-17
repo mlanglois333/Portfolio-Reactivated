@@ -7,7 +7,7 @@ function Project(props) {
     let i = props.index;
     
     return (
-        <div>
+        <div className="contentAlign">
 
 
             <Card header={projects.projects[i].title} 
