@@ -10,11 +10,11 @@ function About() {
 
             
                 <Row>
-            <Col size="xs-6" children={
+            <Col size="sm-6" children={
                     <img className="profilePic" src="./img/profilepic.JPG" alt="author"></img>
                 } /> 
 
-                <Col size="xs-6" children={
+                <Col size="sm-6" children={
                   <p>
                         <span className="emph">Thank you for stopping by!</span>
                         <br />

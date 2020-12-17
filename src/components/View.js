@@ -88,7 +88,7 @@ class View extends Component {
         else if (this.state.isLoading === false && this.state.display === "home") {
             return <Container>
                 <Row>
-                    <Col size="xs-12">
+                    <Col size="sm-12">
                         <Header home={this.home} portfolio={this.projects} about={this.about} />
                         <div className="buffer"></div>
                     </Col>
@@ -96,7 +96,7 @@ class View extends Component {
                 <Row>
 
 
-                    <Col size="xs-12">
+                    <Col size="sm-12">
                         <Home />
                     </Col>
 
@@ -114,13 +114,13 @@ class View extends Component {
         else if (this.state.display === "portfolio" && this.state.isLoading === false) {
             return <Container>
                 <Row>
-                    <Col size="xs-12">
+                    <Col size="sm-12">
                         <Header home={this.home} portfolio={this.projects} about={this.about} />
                         <div className="buffer"></div>
                     </Col>
                 </Row>
                 <Row>
-                    <Col size="xs-12">
+                    <Col size="sm-12">
                         <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
                     </Col>
                 </Row>
@@ -138,14 +138,14 @@ class View extends Component {
 
             return <Container>
                 <Row>
-                    <Col size="xs-12">
+                    <Col size="sm-12">
                         <Header home={this.home} portfolio={this.projects} about={this.about} />
                         <div className="buffer"></div>
 
                     </Col>
                 </Row>
                 <Row>
-                    <Col size="xs-12">
+                    <Col size="sm-12">
                         <About />
                     </Col>
 

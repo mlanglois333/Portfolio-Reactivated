@@ -8,12 +8,12 @@ function Card(props) {
     
       
       <Row>
-        <Col size="xs-6">
+        <Col size="sm-6">
           
             <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
          
         </Col>
-        <Col size="xs-6">   
+        <Col size="sm-6">   
 
             <h2>{props.header}</h2>
             
