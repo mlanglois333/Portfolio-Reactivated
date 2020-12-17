@@ -1,5 +1,6 @@
 * {
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -10,12 +11,6 @@ a {
 html, body {height:100%;
 }
 
-
-
-iframe{
-  height:800;
-  width:600;
-}
 
 body {
 
@@ -49,7 +44,7 @@ code {
 }
 
 .linkImg {
-  max-width: 40%;
+  max-width: 15%;
   height: auto;
 }
 
