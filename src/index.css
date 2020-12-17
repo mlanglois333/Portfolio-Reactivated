@@ -72,12 +72,13 @@ code {
 
 
 .buttonImg {
-  width: 70%;
+  width: 10%;
   height: auto;
   position:fixed;
   top:50%;
-  
+
 }
+
 
 .vert {
   margin: 0;
