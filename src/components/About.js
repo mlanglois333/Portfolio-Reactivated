@@ -6,7 +6,7 @@ import Col from "./Col";
 
 function About() {
     return (
-    <div>
+    <div className="hero-text">
 
         <Container>
             <Row>
