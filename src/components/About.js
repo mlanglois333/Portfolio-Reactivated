@@ -6,16 +6,15 @@ import Col from "./Col";
 
 function About() {
     return (
-    <div className="hero-text">
+        <div>
 
-        <Container>
-            <Row>
-                <Col size="md-6">
-
+            <Container children={
+                <Row children={
+            [<Col size="xs-6" children={
                     <img className="profilePic" src="./img/profilepic.JPG" alt="author"></img>
-                </Col>
-                <Col size="md-6">
-                    <p>
+                } />,
+                <Col size="xs-6" children={
+                  <p>
                         <span className="emph">Thank you for stopping by!</span>
                         <br />
                         <br />
@@ -39,13 +38,17 @@ function About() {
 
                         Please feel free to reach out any time!
 
-                    </p>
-                </Col>
-            </Row>
-      
-        </Container>
+                    </p>  
+                } />]
 
-    </div>)
+                } />
+
+            } />
+
+
+
+
+        </div>)
 }
 
 export default About;

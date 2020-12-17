@@ -118,17 +118,22 @@ class View extends Component {
         else if (this.state.display === "about" && this.state.isLoading === false) {
 
 
-            return <Container>
-                <Row>
+            return <Container children={
+                [
+                    <Row children={ <Col size="xs-12" children={
+<Header home={this.home} portfolio={this.projects} about={this.about} />
+                    } />
+                    } />,
+                    <Row children={
+                    <Col size="xs-12" children={<About />} />
+                    } />
+                ]
+            } />
 
-
-                    <Header home={this.home} portfolio={this.projects} about={this.about} />
-                    <div className="buffer"></div>
-                </Row>
-                <Row>
-                    <About />
-                </Row>
-            </Container>
+                
+                    
+                
+           
 
 
         }
