@@ -5,7 +5,7 @@ import Col from './Col';
 
 function Card(props) {
   return (<div>
-    <Container>
+    
       
       <Row>
         <Col size="sm-6">
@@ -33,7 +33,7 @@ function Card(props) {
 
 
 
-    </Container></div>
+    </div>
   );
 }
 
