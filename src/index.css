@@ -117,4 +117,10 @@ code {
   color: white;
 }
 
+.sticky {
+  position: -webkit-sticky; 
+  position: sticky;
+  bottom: 0;
+
+}
 
