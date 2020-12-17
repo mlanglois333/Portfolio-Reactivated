@@ -129,11 +129,12 @@ code {
   position: fixed;
   top: 0;
   left: 0;
-  width: 5%;
+  width: 100%;
   background-color: black;
 }
 
 .linkPosition{
   position: fixed;
-  right:0
+  right:0;
+  top:0;
 }
