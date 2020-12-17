@@ -86,39 +86,75 @@ class View extends Component {
         if (this.state.isLoading === true) { return <div><h3>Loading...</h3></div> }
 
         else if (this.state.isLoading === false && this.state.display === "home") {
-            return <div>
-                <Header home={this.home} portfolio={this.projects} about={this.about} />
-                <div className="buffer"></div>
+            return <Container>
+                <Row>
+                    <Col size="xs-12">
+                        <Header home={this.home} portfolio={this.projects} about={this.about} />
+                        <div className="buffer"></div>
+                    </Col>
+                </Row>
+                <Row>
 
-                <Home />
-            </div>
+
+                    <Col size="xs-12">
+                        <Home />
+                    </Col>
+
+                </Row>
+
+
+
+
+            </Container>
 
 
 
         }
 
         else if (this.state.display === "portfolio" && this.state.isLoading === false) {
-            return <div>
+            return <Container>
+                <Row>
+                    <Col size="xs-12">
+                        <Header home={this.home} portfolio={this.projects} about={this.about} />
+                        <div className="buffer"></div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size="xs-12">
+                        <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
+                    </Col>
+                </Row>
 
-                <Header home={this.home} portfolio={this.projects} about={this.about} />
-                <div className="buffer"></div>
-                <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
 
 
-            </div>
+
+
+
+            </Container>
         }
 
         else if (this.state.display === "about" && this.state.isLoading === false) {
 
 
-            return <div>
-                <Header home={this.home} portfolio={this.projects} about={this.about} />
-                <div className="buffer"></div>
-                <About />
+            return <Container>
+                <Row>
+                    <Col size="xs-12">
+                        <Header home={this.home} portfolio={this.projects} about={this.about} />
+                        <div className="buffer"></div>
+
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size="xs-12">
+                        <About />
+                    </Col>
+
+                </Row>
 
 
 
-            </div>
+
+            </Container>
 
 
 
