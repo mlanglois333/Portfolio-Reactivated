@@ -8,12 +8,15 @@ function Card(props) {
     
       
       <Row>
-        <Col size="sm-6">
+        <Col size="sm-1">
+          <img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" />
+        </Col>
+        <Col size="sm-5">
           
             <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
          
         </Col>
-        <Col size="sm-6">   
+        <Col size="sm-5">   
 
             <h2>{props.header}</h2>
             
@@ -21,15 +24,13 @@ function Card(props) {
             <p>
               {props.detail}
             </p>
-          
+          <p> || {props.li} || {props.gh} || </p>
+        </Col>
+        <Col size="sm-1">
+          <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" />
         </Col>
       </Row>
-      <Row>
-        <Col size="xs-12">
-          <p><img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" /> || {props.li} || {props.gh} || <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" /></p>
 
-        </Col>
-      </Row>
 
 
 </Container>
