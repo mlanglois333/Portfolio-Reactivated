@@ -5,7 +5,7 @@ import Col from './Col';
 
 function Card(props) {
   return (
-  <div className="contentAlign">
+  
     <Container>
     
       
@@ -36,7 +36,7 @@ function Card(props) {
 
 
 </Container>
-</div>
+
     
   );
 }
