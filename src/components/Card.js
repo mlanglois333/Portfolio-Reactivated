@@ -9,7 +9,7 @@ function Card(props) {
       
       <Row>
         <Col size="sm-1">
-          <img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" />
+          <img src={props.left} alt="left" onClick={props.leftClick} />
         </Col>
         <Col size="sm-5">
           
@@ -27,7 +27,7 @@ function Card(props) {
           <p> || {props.li} || {props.gh} || </p>
         </Col>
         <Col size="sm-1">
-          <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" />
+          <img src={props.right} alt="left" onClick={props.rightClick} />
         </Col>
       </Row>
 
