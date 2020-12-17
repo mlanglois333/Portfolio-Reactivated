@@ -17,7 +17,7 @@ function Home() {
                 </h3>
             </Fade>
         </div>
-   
+    )
 
    
    
