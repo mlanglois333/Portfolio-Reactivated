@@ -18,10 +18,10 @@ function Header(props) {
                         <a className="nav-link" href="https://docs.google.com/document/d/1Ysg97sg2KhNGJ9d0rwVgdR9BviSeHpazEl2W0yVpQbo/edit?usp=sharing">Resume</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/marc-langlois-2b40b61b0/"><img src="./img/liImg.png" alt="linkedIn" className="linkImg" /></a>
+                        <a href="https://www.linkedin.com/in/marc-langlois-2b40b61b0/"><img src="./img/liImg.png" alt="linkedIn" className="linkImg pull-right" /></a>
                     </li>
                     <li>
-                        <a href='https://github.com/mlanglois333'><img src="./img/github.png" alt="gitHub" className="linkImg" /></a>
+                        <a href='https://github.com/mlanglois333'><img src="./img/github.png" alt="gitHub" className="linkImg pull-right" /></a>
                     </li>
                 </ul>
             </div>
