@@ -92,7 +92,7 @@ code {
 }
 
 .contentAlign{
- position:absolute;
+ position:fixed;
  top:15%;
 
 }
