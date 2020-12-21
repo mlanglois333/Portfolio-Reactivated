@@ -14,6 +14,7 @@ function About() {
 
 
                 <Col size="sm-6 xs-12" children={
+                    <div className="bgPanel">
                     <p>
                         <span className="emph">Thank you for stopping by!</span>
                         <br />
@@ -39,6 +40,7 @@ function About() {
                         Please feel free to reach out any time!
 
                     </p>
+                    </div>
                 } />
                 <Col size="sm-6 xs-6" children={
                     <img className="profilePic" src="./img/image1.jpeg" alt="author"></img>

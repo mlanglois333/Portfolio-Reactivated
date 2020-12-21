@@ -18,6 +18,7 @@ function Card(props) {
          
         </Col>
         <Col size="sm-6 xs-12">   
+        <div className="bgPanel">
 
             <h2>{props.header}</h2>
             
@@ -26,6 +27,7 @@ function Card(props) {
               {props.detail}
             </p>
           <p> || {props.li} || {props.gh} || </p>
+          </div>
         </Col>
         </Row>
         <Row>

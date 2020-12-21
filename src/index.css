@@ -47,6 +47,7 @@ code {
   max-width: 10%;
   height:auto;
   padding-left: 5px;
+  float: right;
 }
 
 .homeText {
@@ -85,14 +86,6 @@ code {
 }
 
 
-.vert {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
 .aboutText{
   color:white;
   text-align: center;
@@ -102,7 +95,7 @@ code {
 }
 
 .contentAlign{
- padding-top: 10%;
+ margin-top: 15%;
  
 
 }
@@ -134,7 +127,7 @@ code {
 
   position: fixed;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.459);
+  background-color: rgba(0, 0, 0, 0.623);
   color:white;
   height:10%;
   text-align: center;
@@ -158,5 +151,9 @@ code {
   position: fixed;
   right:0;
   bottom:0;
+}
+
+.bgPanel{
+  background-color: rgba(0, 0, 0, 0.623);
 }
 
