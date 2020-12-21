@@ -88,7 +88,7 @@ class View extends Component {
         else if (this.state.isLoading === false && this.state.display === "home") {
             return <div>
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
-                <div className="buffer"></div>
+                
 
                 <Home />
                 <Footer />

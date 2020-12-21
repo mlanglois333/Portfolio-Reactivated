@@ -92,7 +92,7 @@ code {
 }
 
 .contentAlign{
- padding-top: 15%;
+ padding-bottom: 10%;
  
 
 }
@@ -139,9 +139,9 @@ code {
   padding-bottom: 10px;
 }
 
-.linkPosition{
+.linkPos{
   position: fixed;
   right:0;
-  top:0;
+  bottom:0;
 }
 

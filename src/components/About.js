@@ -6,7 +6,7 @@ import Col from "./Col";
 
 function About() {
     return (
-        <div className="contentAlign">
+        
         <Container>
 
             
@@ -45,7 +45,7 @@ function About() {
 
                 </ Row>
                 </Container>
-                </div>
+                
                 )
 }
 
