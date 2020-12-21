@@ -11,9 +11,9 @@ function Footer() {
 
 
 
-      <p>Marc Langlois || MLangloisCoding@gmail.com || 2020
+       Marc Langlois || MLangloisCoding@gmail.com || 2020 
     <a href="https://mlanglois333.github.io/Portfolio-Reactivated/"> Homepage</a>
-      </p>
+       
 
 
     </div>

@@ -46,6 +46,7 @@ code {
 .linkImg {
   max-width: 15%;
   height:auto;
+  padding-right: 10px;
 }
 
 .homeText {
