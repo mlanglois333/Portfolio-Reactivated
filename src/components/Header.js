@@ -3,7 +3,7 @@ import React from "react";
 function Header(props) {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-inverse header">
+        <nav className="navbar navbar-expand navbar-inverse header">
             <a className="navbar-brand" href="/" onClick={props.home}>Marc Langlois</a>
 
             <div id="navbarSupportedContent">
