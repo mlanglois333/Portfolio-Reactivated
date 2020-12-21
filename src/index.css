@@ -92,8 +92,8 @@ code {
 }
 
 .contentAlign{
- position:fixed;
- top:15%;
+ padding-top: 15%;
+ 
 
 }
 
