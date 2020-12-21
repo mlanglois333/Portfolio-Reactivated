@@ -109,7 +109,7 @@ class View extends Component {
                     <Row>
                         <Col size="sm-12 xs-12">
                             <Header home={this.home} portfolio={this.projects} about={this.about} />
-                            <div className="buffer"></div>
+                            
                         </Col>
                     </Row>
                     <Row>
@@ -136,7 +136,7 @@ class View extends Component {
                     <Row>
                         <Col size="sm-12 xs-12">
                             <Header home={this.home} portfolio={this.projects} about={this.about} />
-                            <div className="buffer"></div>
+                            
 
                         </Col>
                     </Row>
