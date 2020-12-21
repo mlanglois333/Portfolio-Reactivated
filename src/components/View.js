@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import Container from "./Container";
-import Row from "./Row";
-import Col from "./Col";
 import Header from "./Header";
 import Footer from "./Footer";
 import About from "./About";
 import Project from "./Project";
 import Home from "./Home";
-//import Button from "./Button";
-//import Fade from 'react-reveal/Fade';
 
 
 class View extends Component {
@@ -72,7 +67,7 @@ class View extends Component {
         else {
             tempIndex++;
             this.setState({ index: tempIndex });
-            console.log(this.state.index);
+            
         }
 
 
