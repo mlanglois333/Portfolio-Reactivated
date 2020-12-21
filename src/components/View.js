@@ -91,6 +91,7 @@ class View extends Component {
                         <div className="buffer"></div>
                   
                         <Home />
+                        <Footer />
              
 
 
@@ -120,8 +121,9 @@ class View extends Component {
 
 
 
-
+<Footer />
             </Container>
+            
         }
 
         else if (this.state.display === "about" && this.state.isLoading === false) {
@@ -143,7 +145,7 @@ class View extends Component {
                 </Row>
 
 
-
+<Footer />
 
             </Container>
 
