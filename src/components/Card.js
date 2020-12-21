@@ -5,20 +5,19 @@ import Col from './Col';
 
 function Card(props) {
   return (
+    
   
     <Container>
     
       
       <Row>
-        <Col size="sm-1 xs-12">
-          <img src={props.left} alt="left" onClick={props.leftClick} className="buttonImg" />
-        </Col>
-        <Col size="sm-5 xs-12">
+        
+        <Col size="sm-6 xs-12">
           
             <img src={props.image} alt="screenshot" className="img-fluid screenshot" />
          
         </Col>
-        <Col size="sm-5 xs-12">   
+        <Col size="sm-6 xs-12">   
 
             <h2>{props.header}</h2>
             
@@ -28,9 +27,15 @@ function Card(props) {
             </p>
           <p> || {props.li} || {props.gh} || </p>
         </Col>
-        <Col size="sm-1 xs-12">
-          <img src={props.right} alt="left" onClick={props.rightClick} className="buttonImg" />
+        </Row>
+        <Row>
+        <Col size="sm-6 xs-6">
+          <img src={props.left} alt="left" onClick={props.leftClick} className="buttonImgL" />
         </Col>
+        <Col size="sm-6 xs-6">
+          <img src={props.right} alt="right" onClick={props.rightClick} className="buttonImgR" />
+        </Col>
+        
       </Row>
 
 

@@ -88,7 +88,7 @@ class View extends Component {
         else if (this.state.isLoading === false && this.state.display === "home") {
             return <div>
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
-                
+
 
                 <Home />
                 <Footer />
@@ -105,26 +105,11 @@ class View extends Component {
 
         else if (this.state.display === "portfolio" && this.state.isLoading === false) {
             return <div>
-                <Container>
-                    <Row>
-                        <Col size="sm-12 xs-12">
-                            <Header home={this.home} portfolio={this.projects} about={this.about} />
-                            
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col size="sm-12 xs-12">
-                            <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
-                        </Col>
-                    </Row>
 
-
-
-
-
-
-                </Container>
+                <Header home={this.home} portfolio={this.projects} about={this.about} />
+                <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
                 <Footer />
+                
             </div>
         }
 
@@ -132,25 +117,9 @@ class View extends Component {
 
 
             return <div>
-                <Container>
-                    <Row>
-                        <Col size="sm-12 xs-12">
-                            <Header home={this.home} portfolio={this.projects} about={this.about} />
-                            
 
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col size="sm-12 xs-12">
-                            <About />
-                        </Col>
-
-                    </Row>
-
-
-
-
-                </Container>
+                <Header home={this.home} portfolio={this.projects} about={this.about} />
+                <About />
                 <Footer />
 
             </div>

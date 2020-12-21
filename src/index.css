@@ -66,11 +66,20 @@ code {
 
 
 
-.buttonImg {
+.buttonImgL {
   width: 5%;
   height: auto;
   position:fixed;
   top:50%;
+  left:10%;
+
+}
+.buttonImgR {
+  width: 5%;
+  height: auto;
+  position:fixed;
+  top:50%;
+  right:10%;
 
 }
 
