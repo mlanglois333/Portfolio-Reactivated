@@ -44,7 +44,7 @@ code {
 }
 
 .linkImg {
-  max-width: 15%;
+  max-width: 10%;
   height:auto;
   padding-right: 10px;
 }
@@ -124,6 +124,7 @@ code {
   color:white;
   height:15%;
   text-align: center;
+  width:100%;
 
 }
 
