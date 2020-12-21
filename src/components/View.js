@@ -88,9 +88,11 @@ class View extends Component {
         else if (this.state.isLoading === false && this.state.display === "home") {
             return <div>
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
+                
 
 
                 <Home />
+                
                 <Footer />
 
 
@@ -107,9 +109,11 @@ class View extends Component {
             return <div>
 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
+                <div>
                 <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
+                </div>
                 <Footer />
-                
+
             </div>
         }
 
@@ -119,7 +123,9 @@ class View extends Component {
             return <div>
 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
+                <div>
                 <About />
+                </div>
                 <Footer />
 
             </div>
