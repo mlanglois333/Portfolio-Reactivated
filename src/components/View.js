@@ -87,12 +87,12 @@ class View extends Component {
 
         else if (this.state.isLoading === false && this.state.display === "home") {
             return <div>
-                        <Header home={this.home} portfolio={this.projects} about={this.about} />
-                        <div className="buffer"></div>
-                  
-                        <Home />
-                        <Footer />
-             
+                <Header home={this.home} portfolio={this.projects} about={this.about} />
+                <div className="buffer"></div>
+
+                <Home />
+                <Footer />
+
 
 
 
@@ -104,53 +104,56 @@ class View extends Component {
         }
 
         else if (this.state.display === "portfolio" && this.state.isLoading === false) {
-            return <Container>
-                <Row>
-                    <Col size="sm-12 xs-12">
-                        <Header home={this.home} portfolio={this.projects} about={this.about} />
-                        <div className="buffer"></div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col size="sm-12 xs-12">
-                        <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
-                    </Col>
-                </Row>
+            return <div>
+                <Container>
+                    <Row>
+                        <Col size="sm-12 xs-12">
+                            <Header home={this.home} portfolio={this.projects} about={this.about} />
+                            <div className="buffer"></div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col size="sm-12 xs-12">
+                            <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
+                        </Col>
+                    </Row>
 
 
 
 
 
-<Footer />
-            </Container>
-            
+
+                </Container>
+                <Footer />
+            </div>
         }
 
         else if (this.state.display === "about" && this.state.isLoading === false) {
 
 
-            return <Container>
-                <Row>
-                    <Col size="sm-12 xs-12">
-                        <Header home={this.home} portfolio={this.projects} about={this.about} />
-                        <div className="buffer"></div>
+            return <div>
+                <Container>
+                    <Row>
+                        <Col size="sm-12 xs-12">
+                            <Header home={this.home} portfolio={this.projects} about={this.about} />
+                            <div className="buffer"></div>
 
-                    </Col>
-                </Row>
-                <Row>
-                    <Col size="sm-12 xs-12">
-                        <About />
-                    </Col>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col size="sm-12 xs-12">
+                            <About />
+                        </Col>
 
-                </Row>
-
-
-<Footer />
-
-            </Container>
+                    </Row>
 
 
 
+
+                </Container>
+                <Footer />
+
+            </div>
 
 
         }
