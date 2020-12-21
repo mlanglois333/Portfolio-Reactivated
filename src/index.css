@@ -116,8 +116,8 @@ code {
 }
 
 .footy {
-  position: -webkit-sticky; 
-  position: sticky;
+
+  position: fixed;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.459);
   color:white;
