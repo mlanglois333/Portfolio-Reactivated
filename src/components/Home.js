@@ -13,6 +13,9 @@ function Home() {
                 Junior Engineer
             </h3>
             <h3>
+                Communications Major
+            </h3>
+            <h3>
                 Creative Problem Solver
                 </h3>
             </Fade>

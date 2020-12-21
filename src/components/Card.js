@@ -26,7 +26,7 @@ function Card(props) {
             <p>
               {props.detail}
             </p>
-          <p> || {props.li} || {props.gh} || </p>
+          <p>{props.li} || {props.gh}</p>
           </div>
         </Col>
         </Row>
