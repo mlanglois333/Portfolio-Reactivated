@@ -5,7 +5,7 @@ function Home() {
     return (
         
         <div className="hero-text">
-            <Fade cascade>
+            <Fade>
                 <h1 className="homeText">
                 Marc Langlois
             </h1>
