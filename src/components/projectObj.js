@@ -2,7 +2,7 @@ const projects = [
 
     {
         title: "Ascent Healthy Living",
-        description: 'During the recent pandemic and quaranitine, alcohol consumption has risen by 30%. We designed this application to let users track and reduce their alcohol intake in a positive manner. Users set goals and receive badges for their accomplishments and are presented with a sleek visual representation of their work. This application uses NodeJs, HandleBars, Sequelize, Express, and a "Seperation of Concerns" approach.',
+        description: 'During the recent pandemic and quaranitine, alcohol consumption has risen by 30%. We designed this application to let users track and reduce their alcohol intake in a positive manner. Users set goals and receive badges for their accomplishments and are presented with a sleek visual representation of their work. This application uses NodeJs, HandleBars, Sequelize, Express, and a "Seperation of Concerns" approach.                                                                                                        ',
         github: "https://github.com/mlanglois333/Ascent-Sobriety-Toolkit",
         deployed: "https://ascent-sobriety.herokuapp.com/",
         imgUrl: "./img/ascent.png",

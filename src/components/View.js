@@ -109,7 +109,7 @@ class View extends Component {
             return <div>
 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
-                <div className="cent">
+                <div>
                 <Project index={this.state.index} leftClick={this.left} rightClick={this.right} />
                 </div>
                 <Footer />
@@ -123,7 +123,7 @@ class View extends Component {
             return <div>
 
                 <Header home={this.home} portfolio={this.projects} about={this.about} />
-                <div className="cent">
+                <div>
                 <About />
                 </div>
                 <Footer />
