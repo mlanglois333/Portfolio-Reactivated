@@ -15,7 +15,7 @@ function Header(props) {
                         <a className="nav-link" href="/" onClick={props.about}>About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://docs.google.com/document/d/1Ysg97sg2KhNGJ9d0rwVgdR9BviSeHpazEl2W0yVpQbo/edit?usp=sharing">Resume</a>
+                        <a className="nav-link" href="https://drive.google.com/file/d/1iQaJ8f0ltXfp7lflanN1WFS036a3cP5Q/view?usp=sharing">Resume</a>
                     </li>
                 </ul>
             </div>
